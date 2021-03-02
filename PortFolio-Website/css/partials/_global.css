@@ -6,7 +6,7 @@
     line-height: 72px;
 }
 
-.text-uppurcase {
+.text-uppercase {
     text-transform: uppercase;
 }
 
@@ -73,4 +73,12 @@
     content: '';
     z-index: -1;
     border-radius: 4px;
+ }
+
+ p.para {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--roboto);
  }

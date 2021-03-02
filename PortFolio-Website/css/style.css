@@ -79,6 +79,24 @@
     padding: 115px 0;
     width: 90rem;
 }
-
-
 /* End Banner area */ 
+
+/* Start About Area */
+
+.site-main .about-area {
+    padding: 100px 80px;
+}
+
+.site-main .about-area .about-title h2 >span {
+  display: block;  
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: var(--roboto);
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph >p {
+    padding: 5px 0;
+}
+/* End About Area */
