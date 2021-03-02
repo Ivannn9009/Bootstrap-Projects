@@ -82,3 +82,7 @@
     line-height: 25px;
     font-family: var(--roboto);
  }
+
+ .font-roboto {
+     font-family: var(--roboto);
+ }
