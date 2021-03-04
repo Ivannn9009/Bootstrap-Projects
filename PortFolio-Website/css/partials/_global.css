@@ -86,3 +86,15 @@
  .font-roboto {
      font-family: var(--roboto);
  }
+
+ button:focus, button:active, button:hover, .btn:active, .btn.active {
+     outline: none!important;
+     box-shadow: none;
+ }
+
+ .title-h1 {
+     font-family: var(--roboto);
+     font-weight: bold;
+     font-size: 39px;
+     line-height: 40px;
+ }

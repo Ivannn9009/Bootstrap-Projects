@@ -222,5 +222,40 @@
 .site-main > .services-area .services:hover {
     box-shadow: var(--box-shadow);
 }
-
 /* End Services Area */
+
+
+/* Start Project Area */
+
+.site-main .project-area {
+    padding: 64px 0;
+}
+
+.site-main .project-area .button-group {
+    padding: 0px 0px 50px 0px;
+}
+
+.site-main .project-area .button-group  button {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group  button + button {
+    padding-left: 48px;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size:  25px;
+    line-height: 12px;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+/* End Project Area */
