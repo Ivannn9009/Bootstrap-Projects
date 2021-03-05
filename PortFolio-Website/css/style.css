@@ -303,6 +303,51 @@
     width: 12px;
     height: 12px;
 }
-
-
 /* End Client Area */
+
+
+/* Start Subscribe Area */
+
+.site-main .subscribe-us-area .subscribe {
+    background: url(/PortFolio-Website/img/subscribe-bg.png);
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    margin: 48px auto;
+    border-radius: 20px;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p {
+    font-size: 14px;
+    color: whitesmoke;
+    padding-top: 16px 64px;
+    margin-bottom: 50px;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox {
+    width: 400px;
+    background: transparent;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: var(--roboto);
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button {
+    background: whitesmoke;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: var(--roboto);
+}
+
+/* End Subscribe Area */
