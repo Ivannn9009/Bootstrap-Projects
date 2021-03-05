@@ -259,3 +259,50 @@
     filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
 }
 /* End Project Area */
+
+
+/* Start Client Area */
+
+.site-main .about-area .about-title p {
+    padding: 16px 112px;
+}
+
+.site-main .about-area .client {
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 48px 0px;
+}
+
+.site-main .about-area .client .client-img {
+    padding: 32px;
+}
+
+.site-main .about-area .client .about-client {
+    padding-top: 32px;
+}
+
+.site-main .about-area .client .about-client h4 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 20px;
+    font-family: var(--roboto);
+}
+
+.site-main .about-area .client .about-client p {
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+/* End Client Area */
