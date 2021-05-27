@@ -1,0 +1,25 @@
+h1 {
+  font-size: 34px;
+}
+
+.top-bar {
+  background: #020202;
+}
+
+/*Below Navbar*/
+.below-nav {
+  background: #EFF2F5;
+}
+
+.below-nav a {
+  color: #000;
+}
+
+footer {
+  background-color: #00BBDA;
+}
+
+/*Socket*/
+.socket {
+  background: #000;
+}
