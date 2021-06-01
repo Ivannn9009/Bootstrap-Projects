@@ -1,0 +1,10 @@
+/* Custom Stylesheets */
+
+/*Color Variables*/
+:root{
+    --color-primary: #2289ff;
+    --color-secondary: #814862!important;
+    --color-acent: #193f6a;
+    --font-poppins: 'Poppins',sans-serif;
+}
+
