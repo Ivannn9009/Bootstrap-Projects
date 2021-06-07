@@ -192,3 +192,35 @@
     object-fit: cover;
 }
 /* End About Section*/
+
+/* Services Section */
+    #services-section{
+        margin: 50px 0;
+        padding: 50px 0;
+        font-family: var(--font-poppins);
+    }
+
+    #services-section .service-show{
+        padding:20px 30px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 0px 30px 0px 30px;
+    }
+
+    #services-section .service-show i.fas{
+        padding: 20px;
+        width: 62px;
+        background-color: #eee;
+        color: var(--color-primary);
+        font-size: 20px;
+        border-radius: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #services-section .service-show p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+/* End Services Section */
