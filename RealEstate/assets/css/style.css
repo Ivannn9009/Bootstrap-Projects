@@ -286,3 +286,54 @@
     }
     /* End Property Slider */
 /* End Property Listing Section */
+
+/* Work Section */
+
+#work-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
+    font-family: var(--font-poppins);
+}
+
+#work-section h1{
+    color: var(--color-secondary);
+}
+
+#work-section p {
+    font-weight: 400;
+}
+
+#work-section .service-show{
+    padding:20px 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px 0px 30px 0px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#work-section .service-show i.fas{
+    padding: 20px;
+    width: 62px;
+    background-color: #eee;
+    color: var(--color-primary);
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#work-section .service-show p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#work-section .service-show:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    background-color: #fff;
+}
+
+
+/* End Work Section */
