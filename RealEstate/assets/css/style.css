@@ -182,6 +182,10 @@
     font-family: var(--font-poppins);
 }
 
+#about-section h1{
+    color: var(--color-secondary);
+}
+
 #about-section .image{
     border-radius: 80px 0px 80px 80px;
     overflow: hidden;
@@ -222,5 +226,63 @@
         font-size: 14px;
         font-weight: 400;
     }
-
 /* End Services Section */
+
+/* Property Listing Section */
+
+    #property-section{
+        width: 100%;
+        padding: 50px 0;
+        background-color: #eee;
+        font-family: var(--font-poppins);
+        color: var(--color-secondary);
+    }
+
+    #property-section .text-right a{
+        color: var(--color-secondary);
+        font-size: 16px;
+        font-weight: 500;
+        transition: 1s ease;
+    }
+
+    #property-section .text-right a:hover{
+        color: var(--color-primary);
+    }
+    /* Property Slider */
+    #property-section #property-slider{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    #property-slider .swiper-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    #property-slider .swiper-container .swiper-slide .property-list{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 0px 30px 30px 30px;
+        color: #000;
+    }
+
+    #property-slider .swiper-container .swiper-slide .property-list p{
+        font-weight: 500;
+    }
+
+    #property-slider .swiper-container .swiper-slide .property-list .image{
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 0px 30px 30px 30px;
+        margin-bottom: 10px;
+    }
+
+    #property-slider .swiper-container .swiper-slide .property-list .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* End Property Slider */
+/* End Property Listing Section */
