@@ -342,7 +342,6 @@
 /* End Work Section */
 
 /* Feature Property Section */
-
 #feature-section{
     width: 100%;
     text-align: center;
@@ -377,5 +376,31 @@
     height: 100%;
     object-fit: cover;
 }
+/* End Feature Property Section */
 
-/* Feature Property Section */
+/* Testimonial Section */
+    #testimonial-section{
+        width: 100%;
+        padding: 100px 0;
+        text-align: center;
+        font-family: var(--font-poppins);
+    }
+
+    #testimonial-section .testimonial-list .image{
+    border-radius: 100% 100% 0 100%;
+    overflow: hidden;
+    height: 330px;
+    }
+
+    #testimonial-section .testimonial-list .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+    #testimonial-section .testimonial-list i.fas {
+        color: var(--color-primary);
+        opacity: 0.1;
+    }    
+
+/* End Testimonial Section */
