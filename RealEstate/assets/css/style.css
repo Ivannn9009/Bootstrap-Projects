@@ -402,5 +402,36 @@
         color: var(--color-primary);
         opacity: 0.1;
     }    
-
 /* End Testimonial Section */
+
+/* Mail Section */
+    #mail-section{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #eee;
+        text-align: center;
+        font-family: var(--font-poppins);
+    }
+
+    #mail-section .form{
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+
+    #mail-section .form input {
+        border-radius: 30px;
+        padding: 15px 0;
+        border: none;
+    }
+
+    #mail-section .form .btn-theme{
+        border-radius: 30px;
+        padding: 10px 40px;
+    }
+/* End Mail Section */
+
+/* Footer Section */
+
+
+/* End Footer Section */
