@@ -140,6 +140,11 @@
 /* End Banner Section */
 
 /* Search section */
+#search-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 #search-section .search-area{
     border-radius: 80px;
     padding: 15px 50px;
@@ -461,3 +466,126 @@ footer ul li a:hover{
     transition: 0.5s ease;
 }
 /* End Footer Section */
+
+/* Responsive CSS */
+@media only screen and (max-width:991px) {
+
+    /* Testimonial section */
+    #testimonial-section .testimonial-list i.fas{
+        font-size: 48px!important;
+    }
+    /* About section */
+    #about-section h6 {
+        text-align: center;
+    }
+    #about-section h1{
+        text-align: left;
+    }
+    /* Property section */
+    #property-section h1, h6 {
+        text-align: center;
+    }
+    #property-section .text-right {
+        text-align: center!important;
+    }
+    /* Services section */
+    #services-section .d-flex{
+        flex-direction: column;
+    }
+    /* Work section*/
+    #work-section .d-flex{
+        flex-direction: column;
+    }
+    .vertical-hr{
+        display: none;
+    }
+    /* Footer */
+    #footer-section{
+        text-align: center;
+    }
+    .md-hr{
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width:640px) {
+    /* Search section*/
+    #search-section{
+        margin-top: 0;
+    }
+    #search-section .search-area{
+        border-radius: 0px;
+        padding: 30px;
+    }
+    #search-section .search-area input{
+        margin-bottom: 10px;
+    }
+     .form-control:focus{
+        box-shadow: none;
+    } 
+    #search-section .search-area button.btn-theme{
+        margin-top: 20px;
+        width: 100%;
+    }
+    /* Services section */
+    #services-section .d-flex{
+        flex-direction: column;
+    }
+    /* About section */
+    #about-section h6 {
+        text-align: center;
+    }
+    #about-section h1{
+        text-align: left;
+    }
+    /* Property section */
+    #property-section h6, h1 {
+        text-align: center;
+    }
+
+    #property-section .text-right {
+        text-align: center!important;
+    }
+    /* Work section */
+    #work-section .d-flex{
+        flex-direction: column;
+    }
+    .vertical-hr{
+        display: none;
+    }
+    /* Testimonial section */
+    #testimonial-section{
+        padding: 30px 0;
+    }
+
+    #testimonial-section .testimonial-list .image{
+        border-radius: 100% 100% 100% 100%;
+        height: 300px;
+    }
+    #testimonial-section .testimonial-list i.fas{
+        font-size: 48px!important;
+    }
+    /* Mail section */
+    #mail-section{
+        padding: 30px 0;
+    }
+    #mail-section .form{
+        padding: 30px 20px;
+    }
+    #mail-section .btn-theme{
+        margin: 10px 0;
+        width: 100%;
+    }
+    /* Footer section */
+    footer{      
+        margin-top: 30px; 
+        border-radius: 50px 50px 0 0;
+    }
+    #footer-section{
+        text-align: center;
+    }
+    .md-hr{
+        width: 50%;
+    }
+}
