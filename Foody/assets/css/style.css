@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+            /* Custom CSS */
+
+            /* Css Variables */
+:root {
+    --color-primary: #f69f24;
+    --color-accent: #FB5977;
+    --color-secondary: #232323;
+    --color-white: #fffdf5;
+    --color-gray: #7d7d7b;
+}
+
+                /* Universal Styling */
+.btn-theme{
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.btn-theme:hover{
+    opacity: 0.8;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+}
+
+.btn-icon svg{
+    transition: 0.5s ease;
+}
+
+.btn-icon:hover svg{
+    fill: var(--color-accent);
+}
+
+                /* Header */
+
+header .navbar .navbar-brand{
+    color: var(--color-secondary);
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    padding: 5px;
+}
+ 
+header .navbar-brand:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 15px;
+    background-color: var(--color-primary);
+    z-index: -1;
+}
+
+header .navbar .nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 15px;
+    color: var(--color-secondary);
+    position: relative;
+}
+
+header .navbar .nav-link:before{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: -100%;
+   width: 100%;
+   height: 2px;
+   background-color: var(--color-primary);
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+header .navbar .nav-link:hover:before{
+    left: 0;
+    opacity: 1;
+}
+
+header .navbar .btn{
+    margin: auto 5px;
+}
+
+header .navbar .btn svg{
+    width: 20px;
+    height: 20px;
+}
+            /* Banner section */
+    section{
+        padding: 50px 0;
+    }
+
+    .banner{
+        width: 100%;
+        /* height: 90vh; */
+        overflow: hidden;
+        border-top: 3px solid var(--color-primary);
+    }         
+    
+    .banner img{
+        width: 100%;
+    }
+
+    .banner-paragraph{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .banner h1.display-3 {
+        font-weight: 700;
+    }
+
+    .banner .btn-theme{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+
+
+
+        /* Responsive Parts */
+
+@media only screen and (max-width: 991px){
+
+        /* Header */
+    header .navbar .nav-link{
+        margin: auto 5px;
+    }
+
+    header .navbar .nav-link:before{  
+        width: 10%;  
+     }
+     header .navbar .d-flex {
+        margin-top: 20px;
+    }
+        /* Banner Section */
+    .banner img{
+        height: auto;
+    }
+
+    .banner .btn-theme{     
+        margin: 10px 0;
+    }
+}        
+
+
+@media only screen and (max-width: 567px){
+            /* HEADER */
+    header .navbar .nav-link{
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 5px;
+        color: var(--color-secondary);
+        position: relative;
+    }
+
+    header .navbar .nav-link:before{  
+        width: 10%;  
+     }
+
+    header .navbar .d-flex {
+        margin-top: 10px;
+    }
+    /* BANNER SECTION */
+    .banner{
+        text-align: center;
+    }
+
+    .banner h1.display-3, p{
+        font-size: 28px;
+    }
+
+
+    .banner .btn-theme{
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin: 10px 0;
+    }
+}   
