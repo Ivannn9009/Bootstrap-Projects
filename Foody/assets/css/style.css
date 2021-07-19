@@ -241,9 +241,81 @@ header .navbar .btn svg{
 
     .services .image-box .img-main img{
         width: 100%;
-        height: 700px;
+        height: 600px;
         object-fit: contain;
         transform: rotateY(180deg);
+    }
+
+    /* Menu Section */
+    .menu-section {
+        position: relative;
+    }
+
+    .menu-section .imgChicken-box{
+        position: absolute;
+        top: 50px;
+        left: 180px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .menu-section .imgChicken-box img{
+        width: 100%;
+    }
+
+    .menu-section display-4{
+        font-weight: 500;
+    }
+
+    .menu-section .myCard{
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .menu-section .myCard .text-detail{
+        width: 100%; 
+    }
+
+    .menu-section .myCard .text-detail h3{
+        font-weight: bold;
+    }
+
+    .menu-section .myCard .text-detail .text{
+        color: var(--color-gray);
+        font-size: 18px;
+        margin: 10px 0 20px;
+        font-weight: bold;
+    }
+
+    .menu-section .myCard .text-detail .prices{
+        color: var(--color-primary);
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .menu-section .myCard .text-detail a{
+        color: var(--color-secondary);
+        font-size: 28px;
+    }
+
+    .menu-section .myCard .text-detail a:hover{
+        color: var(--color-primary);
+        transition: 0.5s ease-in-out;
+        font-size: 28px;
+    }
+
+    .menu-section .myCard .image {
+        width: 55%;
+    }
+    .menu-section .myCard .image img{
+        width: 100%;
+        border-radius: 10px;
     }
 
 
@@ -303,7 +375,24 @@ header .navbar .btn svg{
     .services .image-box .img-small img{
         margin-left: 0;
     }
-}        
+
+    /* Menu-section SECTION */
+    .menu-section .imgChicken-box{
+        width: 80px;
+        height: 80px;
+        left: 30px;
+    }
+    .menu-section h1, .display-4{
+        font-size: 36px;
+    }
+    .menu-section .myCard{
+        flex-direction: column-reverse;
+    }
+    .menu-section .myCard .image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    }        
 
 
 @media only screen and (max-width: 567px){
@@ -373,5 +462,16 @@ header .navbar .btn svg{
     }
     .services .image-box .img-main img{
         height: auto;
+    }
+
+    /* Menu-section Section */
+    .menu-section .imgChicken-box{
+        top: 0;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .menu-section h1, .display-4{
+        font-size: 24px;
     }
 }   
