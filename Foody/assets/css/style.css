@@ -263,8 +263,9 @@ header .navbar .btn svg{
         width: 100%;
     }
 
-    .menu-section display-4{
+    .menu-section .display-4{
         font-weight: 500;
+        line-height: 60px;
     }
 
     .menu-section .myCard{
@@ -318,11 +319,41 @@ header .navbar .btn svg{
         border-radius: 10px;
     }
 
+    /* Download Section*/
 
+    .download{
+        background-color: var(--color-white);
+    }
 
+    .download .side-img img{
+        width: 100%;
+        transform: rotateY(180deg);
+    }
 
+    .download .display-4{
+        font-weight: 500;
+        line-height: 60px;
+    }
 
+    .download p{
+        width: 80%;
+        text-align: justify;
+        color: var(--color-gray);
+        font-size: 18px;
+        margin: 20px 0 40px;
+    }
 
+    .download .d-flex a img{
+        width: 150px;
+        margin-right: 30px;
+    }
+
+    .download .image {
+        width: 100%;
+    }
+    .download .image img {
+        width: 100%;
+    }
         /* Responsive Parts */
 
 @media only screen and (max-width: 991px){
@@ -392,6 +423,17 @@ header .navbar .btn svg{
         width: 100%;
         margin-bottom: 20px;
     }
+
+    /* Download Section */
+
+    .download .d-flex a img{
+        width: 100px;
+    }
+    .download .display-4{
+        font-weight: 500;
+        line-height: 40px;
+    }
+
     }        
 
 
@@ -473,5 +515,22 @@ header .navbar .btn svg{
     }
     .menu-section h1, .display-4{
         font-size: 24px;
+    }
+
+    /* Download Section */
+    .download p{
+        width: 100%;
+    }
+    .download .side-img img{
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+    .download .image{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+    }
+    .download .image img{
+        width: 100px;
     }
 }   
