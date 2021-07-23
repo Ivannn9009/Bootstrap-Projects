@@ -354,6 +354,59 @@ header .navbar .btn svg{
     .download .image img {
         width: 100%;
     }
+
+    /* Footer Section */
+
+    footer{
+        padding: 50px 0;
+    }
+    footer .social-icon{
+        margin-top: 50px;
+        display: flex;
+    }
+    footer .social-icon a{
+        width: 40px;
+        height: 40px;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        margin: 5px;
+        line-height: 40px;
+        color: var(--color-secondary);
+        border-radius: 50%;
+        border: 1px solid var(--color-secondary);
+        transition: 0.5s ease;
+    }
+    footer .social-icon a:hover{
+        color: var(--color-white);
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+    footer h4{
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    footer .links{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .links a{ 
+        color: var(--color-gray);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 2px 0;
+        transition: 0.5 ease;
+    }
+    footer .links a:hover{ 
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+
+
+
+
+
+
         /* Responsive Parts */
 
 @media only screen and (max-width: 991px){
@@ -434,7 +487,22 @@ header .navbar .btn svg{
         line-height: 40px;
     }
 
-    }        
+    /* Footer Section */
+    footer .social-icon{
+        margin-top: 0;
+    }
+    footer h3, p {
+        text-align: center;
+        margin-bottom:30px;
+    }
+    footer .social-icon {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }     
+    footer h4, .links{
+        text-align: center;
+    }   
 
 
 @media only screen and (max-width: 567px){
@@ -533,4 +601,20 @@ header .navbar .btn svg{
     .download .image img{
         width: 100px;
     }
+    /* Footer Section */
+
+    footer h4, .links{
+        margin-top: 20px;
+    }  
+    footer .h3-footer{
+        font-size: 40px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    footer p i {
+        color: red;
+        font-size: 30px;
+    }
 }   
+}
